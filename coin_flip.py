@@ -16,3 +16,7 @@ for i in range(10000):
 
 print(heads_counter)
 print(tails_counter)
+
+ratio = heads_counter / tails_counter
+
+print(f"The ratio of heads to tails {ratio}")
