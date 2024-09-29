@@ -3,7 +3,8 @@ from ast import Index
 
 while True:
     try:
-        int(input())
+        i = int(input())
+        print(i)
         break
     except ValueError:
         print("Try again!")
