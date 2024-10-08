@@ -20,8 +20,14 @@ print(food[-1])
 
 #Exercise 6
 text = "eggs, fruit, orangejuice"
-breakfast = text.split(",")
+breakfasts = text.split(",")
 
 #Exercise 7
 
-print(len(breakfast))
+print(len(breakfasts))
+
+#Exercise 8
+
+lenghts = [len(breakfast) for breakfast in breakfasts]
+
+print(lenghts)
